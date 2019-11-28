@@ -26,11 +26,11 @@ start()
         jezeli(i++ < 5)
         {
             wskaznik = new Kolo(dokladna(i)+2);
-            drukuj << wskaznik->pole() << nowa_linia;
+            wyjscie << wskaznik->pole() << nowa_linia;
         }
         jezeli_nie
         {
-            drukuj << str << nowa_linia;
+            wyjscie << str << nowa_linia;
             przerwij;
         }
     }
