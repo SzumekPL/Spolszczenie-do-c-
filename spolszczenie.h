@@ -13,7 +13,7 @@
 #define prawda true
 #define falsz false
 
-#define drukuj std::cout
+#define wyjscie std::cout
 #define wypisz printf
 
 #define nowa_linia "\n"
