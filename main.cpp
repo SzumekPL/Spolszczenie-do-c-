@@ -14,19 +14,19 @@ publiczne:
         zwroc PI * r * r;
     }
 };
-uzyj nazw std;
+uzyj przestrzennazw std;
 
 start()
 {
     rzeczywista i = 0.0;
     napis str = "koniec";
-    Kolo* wskaznik;
+    Kolo wskaznik wskaznikNaKolo;
     zawsze
     {
         jezeli(i++ < 5)
         {
-            wskaznik = new Kolo(dokladna(i)+2);
-            wyjscie << wskaznik->pole() << koniec; // moze byc tez nowa_linia
+            wskaznikNaKolo = new Kolo( ((dokladna)i) + 2 );
+            wyjscie << wskaznikNaKolo->pole() << koniec; // moze byc tez nowa_linia
         }
         inaczej
         {
@@ -34,5 +34,6 @@ start()
             przerwij;
         }
     }
+    wylaczjeslisiecoswpisalo;
     zwroc 0;
 }

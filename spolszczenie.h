@@ -88,9 +88,6 @@
 #define bitowe_przesuniecie_w_prawo <<
 #define bitowe_preszuniecie_w_lewo >>
 
-#define tekststart "
-#define tesktKoniec "
-
 #define koniec std::endl
 
 #define dodaj +
@@ -100,6 +97,6 @@
 #define komentarz //
 #define wskaznik *
 #define adres &
-
+#define wylaczjeslisiecoswpisalo cin.get()
 
 #endif // SPOLSZCZENIE_H
