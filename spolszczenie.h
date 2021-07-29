@@ -8,7 +8,7 @@
 #define start() int main()
 
 #define jezeli if
-#define jezeli_nie else
+#define inaczej else
 
 #define prawda true
 #define falsz false
@@ -30,6 +30,7 @@
 #define kontynuuj continue
 
 #define stala const
+#define staladoslowna constexpr
 
 #define nieoznaczona unsigned
 #define oznaczona signed
@@ -52,9 +53,9 @@
 #define wylicz enum
 
 #define zaprzyjaznij friend
-#define podstaw inline
+#define wlini inline
 #define plynna mutable
-#define nazw namespace
+#define przestrzennazw namespace
 
 #define prywatne private
 #define chronione protected
@@ -82,6 +83,20 @@
 
 #define uzyj using
 
-#define wirtuala virtual
+#define wirtualne virtual
+
+#define bitowe_przesuniecie_w_prawo <<
+#define bitowe_preszuniecie_w_lewo >>
+
+#define koniec std::endl
+
+#define dodaj +
+#define pomnoz *
+#define odejmij -
+#define podziel /
+#define komentarz //
+#define wskaznik *
+#define adres &
+#define wylaczjeslisiecoswpisalo cin.get()
 
 #endif // SPOLSZCZENIE_H

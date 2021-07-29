@@ -14,25 +14,26 @@ publiczne:
         zwroc PI * r * r;
     }
 };
-uzyj nazw std;
+uzyj przestrzennazw std;
 
 start()
 {
     rzeczywista i = 0.0;
     napis str = "koniec";
-    Kolo* wskaznik;
+    Kolo wskaznik wskaznikNaKolo;
     zawsze
     {
         jezeli(i++ < 5)
         {
-            wskaznik = new Kolo(dokladna(i)+2);
-            wyjscie << wskaznik->pole() << nowa_linia;
+            wskaznikNaKolo = new Kolo( ((dokladna)i) + 2 );
+            wyjscie << wskaznikNaKolo->pole() << koniec; // moze byc tez nowa_linia
         }
-        jezeli_nie
+        inaczej
         {
-            wyjscie << str << nowa_linia;
+            wyjscie << str << koniec; // moze byc tez nowa_linia
             przerwij;
         }
     }
+    wylaczjeslisiecoswpisalo;
     zwroc 0;
 }
